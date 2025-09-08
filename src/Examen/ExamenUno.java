@@ -21,13 +21,13 @@ public class ExamenUno {
         L1.add(7);
         L1.add(9);
         int max = 10;
-        //mochila(L1,L2,max,0);
+        mochila(L1,L2,max,0);
         //mochilaAyB(L1,L2,max,0,2);
         
         LinkedList<Objeto> L3 = new LinkedList<Objeto>();
         LinkedList<Objeto> L4 = new LinkedList<Objeto>();
         L3.add(new Objeto(1,2,"Amarillo"));
-        L3.add(new Objeto(2,2,"Azul"));
+        L3.add(new Objeto(2,2,"Azul")); 
         L3.add(new Objeto(3,3,"Rojo"));
         L3.add(new Objeto(4,4,"Verde"));
         L3.add(new Objeto(5,5,"Cafe"));
