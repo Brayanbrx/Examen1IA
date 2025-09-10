@@ -55,7 +55,6 @@ public class P1 {
     
     
     //auxiliares
-    
     public static int suma(LinkedList<Integer> L1){
         int s=0;
         for(int x : L1){
